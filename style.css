@@ -26,6 +26,23 @@ p {
   font-size: 1.5rem;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.galerie {
+  display: flex;
+  flex-wrap: wrap;
+} 
+
+.galerie .foto {
+width: 33%;
+}
+
+
+
 /*
 Nastylujte header tak, aby byl nadpis a podnadpis vedle sebe, na opačných koncích stránky. Text podnadpisu zarovnejte doprava
 
